@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+<body>
+    <h1>Functions</h1>
+</body>
+</html>
+<script>
+    function addNumbers(a,b) //function declaration
+    {
+        var total = a +b;
+        document.write("<h1>The total is: "+total+"</h2>")
+    }
+    
+    addNumbers(3,4); //function call
+
+        var a = 1;
+        var b = 10; //global variable
+        e = 1; //global variable also can declared without var keyword 
+
+    function addNumbers1()
+    { 
+        var c = 1; // local variable
+        d = 1; //global variable but can't be accessed outside function
+        document.write(c);
+        var total = a +b;
+        document.write("<h1>The total is: "+total+"</h2>")
+    }
+
+    addNumbers1();
+</script>
